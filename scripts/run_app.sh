@@ -1,11 +1,12 @@
 #!/bin/bash
 
 # Written By Lixiang
-
+PWD="/home/wangguidong/mem-pattern-recognition"
 mpr_dir=${PWD}
 champsim_dir=${PWD}/external/ChampSim
 bench_dir=${mpr_dir}/test-cases
-trace_dir=${mpr_dir}/trace
+# trace_dir=${mpr_dir}/trace
+trace_dir="/data/qinjingyuan/checkpoint_speed/trace/riscv-recovery"
 result_dir=${mpr_dir}/result
 RUN_UNION_TRACE=true
 RUN_MPR=true

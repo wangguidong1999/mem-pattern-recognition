@@ -1,6 +1,6 @@
 #!/bin/bash
-./build.sh
-
+# ./build.sh
+PWD="/home/wangguidong/mem-pattern-recognition"
 apps=()
 apps+=("stride")
 apps+=("pointera")
